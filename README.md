@@ -5,7 +5,7 @@
 `examples` 디렉토리에 예제파일이 있습니다.
 
 
-## 1. Bookmarker
+## 1. Bookmark
 
 - [Variable](https://github.com/hyeonjeong33/js-basic/blob/master/examples/variable.md)
 - [Array and Object](https://github.com/hyeonjeong33/js-basic/blob/master/examples/array_and_object.md)
@@ -13,3 +13,6 @@
 - [DOM](https://github.com/hyeonjeong33/js-basic/blob/master/examples/dom.md)
 - [If-else](https://github.com/hyeonjeong33/js-basic/blob/master/examples/if-else.md)
 
+## 2. Reference
+
+- [MDN](https://developer.mozilla.org/ko/docs/Web/HTML)
