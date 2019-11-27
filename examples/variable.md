@@ -16,3 +16,10 @@ const con = 64;
 con = 5555; // TypeError, Const cannot be changed
 
 ```
+
+## Data types on JS
+- String(text)
+- boolean(ture/false)
+- number
+- float(floating number)
+
