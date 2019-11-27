@@ -22,4 +22,3 @@ con = 5555; // TypeError, Const cannot be changed
 - boolean(ture/false)
 - number
 - float(floating number)
-
