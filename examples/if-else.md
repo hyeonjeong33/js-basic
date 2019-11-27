@@ -3,13 +3,13 @@
 #### example 1 >
 ```js
 
-const age = prompt("how old are you");
+const age = prompt("how old are you?");
 
 if(age >= 18 && age <= 21) {
     console.log("you can drink");
-}else if(age > 21) {
+} else if(age > 21) {
     console.log("go ahead")
-}else {
+} else {
     console.log("too young");
 }
 
@@ -19,11 +19,11 @@ if(age >= 18 && age <= 21) {
 
 ```js
 
-function handleOffline(){
+function handleOffline() {
     console.log("offfline")
 }
 
-function handleOnline(){
+function handleOnline() {
     console.log("online")
 ;}
 
@@ -41,19 +41,21 @@ const title = document.querySelector("#title");
 const BASE_COLOR = "rgb(52, 73, 94)"
 const OTHER_COLOR = "#7f8c8d";
 
-function handleClick(){
+function handleClick() {
+
     const currentColor = title.style.color;
-    if (currentColor === BASE_COLOR){
+    if(currentColor === BASE_COLOR) {
         title.style.color = OTHER_COLOR;
     } else {
         title.style.color = BASE_COLOR;
     }
 }
 
-function init(){
+function init() {
     title.style.color = BASE_COLOR;
     title.addEventListener("click", handleClick);
 }
+
 init();
 
 ```
